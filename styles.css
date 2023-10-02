@@ -1,40 +1,32 @@
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media screen and (max-width:480px){
-    .container {
-        align-items: flex-end;
-        background: white;
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .container{
+    // width: 100%;
     }
-
-
-    .calculator {
-        width: 100%;
-        height: 600px;
-        grid-gap: 0;
-        padding: 0;
-        border: none;
-        border-radius: 10px;
-        background: white;
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
     }
-}
-
-
+  }
 .container {
-    background-color:gray ;
+    background-color:black ;
     width: 18%;
     height: 55svh;
     border-radius: 10px;
     box-shadow: 2px 2px 5px black;
+
 }
 
 
 .show {
     cursor: pointer;
-    width: 375.3px;
+    width: 300px;
     height: 60px;
     border: none;
-    background-color:  rgb(168, 222, 107);
+    background-color:  black;
  
 
 
@@ -48,14 +40,24 @@
     height: 60px;
     text-align: center;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 19px;
     font-family: Poppins, sans-serif;
     font-weight: 500;
     position: relative;
     left: 11%;
     top: -20px;
-    box-shadow: 2px 2px 5px whitesmoke;
 
+    background-color: grey;
+    color: white;
+
+
+
+}
+
+
+.style {
+    background-color: orange;
+    box-shadow: none;
 
 
 }
@@ -65,12 +67,16 @@
     width: 127px;
 }
 
+
+
+
 .calculator form input {
     border: 0;
     outline: 0;
     border-radius: 10px;
     font-size: 20px;
     cursor: pointer;
+    color: white;
 
 }
 
