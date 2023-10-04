@@ -48,7 +48,7 @@ body {
     position: relative;
     left: 11%;
     top: -20px;
-
+    box-shadow: 2px 2px 4px gray;
     background-color: grey;
     color: white;
 
@@ -60,6 +60,7 @@ body {
 .style {
     background-color: orange;
     box-shadow: none;
+    box-shadow: 2px 2px 4px orange;
 
 
 }
